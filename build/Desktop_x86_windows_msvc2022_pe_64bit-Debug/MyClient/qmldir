@@ -1,0 +1,5 @@
+module MyClient
+typeinfo appMyClient.qmltypes
+prefer :/qt/qml/MyClient/
+Main 1.0 Main.qml
+

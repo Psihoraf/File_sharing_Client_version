@@ -1,0 +1,14 @@
+-rootPath
+D:/QtProject/MyClient
+-cmake-output
+-output-file
+D:/QtProject/MyClient/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/.qt/qml_imports/appMyClient_conf.cmake
+-importPath
+D:/QtProject/MyClient/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/MyClient
+-importPath
+D:/QtProject/MyClient/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug
+-importPath
+D:/Qt/6.7.2/msvc2019_64/./qml
+-qrcFiles
+D:/QtProject/MyClient/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/.qt/rcc/qmake_MyClient.qrc
+D:/QtProject/MyClient/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/.qt/rcc/appMyClient_raw_qml_0.qrc

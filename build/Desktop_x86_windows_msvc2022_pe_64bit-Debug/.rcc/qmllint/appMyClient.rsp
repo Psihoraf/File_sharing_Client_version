@@ -1,0 +1,10 @@
+--bare
+-I
+D:/QtProject/MyClient/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug
+-I
+D:/Qt/6.7.2/msvc2019_64/./qml
+--resource
+D:/QtProject/MyClient/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/.qt/rcc/qmake_MyClient.qrc
+--resource
+D:/QtProject/MyClient/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/.qt/rcc/appMyClient_raw_qml_0.qrc
+D:/QtProject/MyClient/Main.qml

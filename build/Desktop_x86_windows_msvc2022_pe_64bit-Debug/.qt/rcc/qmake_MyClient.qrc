@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/MyClient">
+    <file alias="qmldir">D:/QtProject/MyClient/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/MyClient/qmldir</file>
+  </qresource>
+</RCC>
+
