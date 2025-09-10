@@ -19,10 +19,10 @@ TcpClientHandler::TcpClientHandler(QObject *parent)
     connect(m_socket, &QTcpSocket::errorOccurred, this, &TcpClientHandler::onErrorOccurred);
 }
 
-bool TcpClientHandler::isConnected() const { return m_connected; }
-QString TcpClientHandler::status() const { return m_status; }
-int TcpClientHandler::progress() const { return m_progress; }
-QString TcpClientHandler::currentFile() const { return m_currentFilePath; }
+bool TcpClientHandler::isConnected()  { return m_connected; }
+QString TcpClientHandler::status()  { return m_status; }
+int TcpClientHandler::progress()  { return m_progress; }
+QString TcpClientHandler::currentFile()  { return m_currentFilePath; }
 
 void TcpClientHandler::connectToServer(const QString &address, quint16 port)
 {
