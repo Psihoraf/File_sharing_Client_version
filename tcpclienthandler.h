@@ -18,10 +18,10 @@ class TcpClientHandler : public QObject
 public:
     explicit TcpClientHandler(QObject *parent = nullptr);
 
-    bool isConnected() const;
-    QString status() const;
-    int progress() const;
-    QString currentFile() const;
+    bool isConnected();
+    QString status();
+    int progress();
+    QString currentFile();
 
     Q_INVOKABLE void connectToServer(const QString &address, quint16 port);
     Q_INVOKABLE void disconnectFromServer();
